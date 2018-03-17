@@ -1,0 +1,48 @@
+.Header {
+    display: flex;
+    position: relative;
+    height: 48px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #0a0a0a;
+}
+
+.Header .title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
+
+.Header .navigation {
+    flex: 3;
+}
+
+.Header ul {
+    margin: 0;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.Header ul li {
+    list-style: none;
+    flex: 1;
+    height: 100%;
+}
+
+.Header ul li > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+.Header ul li.active {
+    border-bottom: 1px solid #a0a0a0;
+    background: #eaeaea;
+}

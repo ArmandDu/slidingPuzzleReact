@@ -1,0 +1,8 @@
+.Puzzle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Puzzle .Pieces {
+    /*max-width: 600px;*/
+}

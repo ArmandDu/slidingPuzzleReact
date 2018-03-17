@@ -1,0 +1,6 @@
+.Play {
+    margin: 24px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

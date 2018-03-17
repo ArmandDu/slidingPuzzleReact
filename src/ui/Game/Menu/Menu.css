@@ -1,0 +1,24 @@
+.Menu {
+    margin: 24px;
+}
+
+.SelectPuzzle {
+    max-width: 900px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.SelectDifficulty {
+    margin: 24px;
+}
+
+.PuzzlePreview {
+    background: lightgray center;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: 16px 8px;
+}
+
